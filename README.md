@@ -12,7 +12,7 @@ This Python program helps you generate C++ class files with a header file (.hpp)
 ## Example
 
 ### Usage:
-![exec](img/exec.png)
+![exec](img/exc.png)
 
 ### CPP File:
 ![cpp](img/cpp_example.png)
