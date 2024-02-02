@@ -20,7 +20,7 @@ def create_class_hpp(name, args):
         "#define " + name.upper() + "_HPP\n\n"
         "#include <iostream>\n\n"
         "class " + name + " {\n"
-        "private:\n"
+        "private:\n\t"
         + private_attributes + "\n"
         "public:\n"
         "\t" + name + "(" + args + ");\n"
@@ -35,7 +35,7 @@ def create_class_hpp(name, args):
     with open(fileName, 'w') as openFile:
         openFile.write(content)
 
-    print("file " + fileName + " was created")
+    print("\nfile " + fileName + " was created")
 
 def create_class_cpp(name, args):
     fileName = name + ".cpp"
