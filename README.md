@@ -1,4 +1,4 @@
-ti# Orthodox Canonical Form Generator
+# Orthodox Canonical Form Generator
 
 This Python program helps you generate C++ class files with a header file (.hpp) and an implementation file (.cpp). It prompts you for the class name and whether the constructor should accept arguments. If arguments are required, you can specify them, and the program creates the necessary class files.
 
